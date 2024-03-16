@@ -14,9 +14,9 @@ const NavBar = () => {
 
   ]
   return (
-  <nav className='flex space-x-6 border-b mb-6 py-5 items-center'>
+  <nav className='flex space-x-6 border-b mb-6 p-5 items-center'>
       <Link href="/"><GiAlienBug size='2em' /></Link>
-      <ul className='flex space-x-6'>
+      <ul className='flex space-x-6 p-5'>
           { links.map(link =>
               <li key={link.href}>
                   <Link
